@@ -6,7 +6,7 @@ export function Footer() {
     return (
         <footer className="bg-zinc-100 py-16">
             <div className="flex gap-14 px-72">
-                <div className="">
+                <div>
                     <div className="flex justify-between gap-3 items-center">
                         <Stethoscope size={36} className="text-primary" />
                         <h1 className="text-3xl font-bold"><span className="text-neutral-500">Tele</span><span className=" text-primary">Rehab</span></h1>
@@ -17,8 +17,8 @@ export function Footer() {
                         <Link><Linkedin size={26} /></Link>
                     </div>
                 </div>
-                <div className="flex gap-28">
-                    <div className="ml-14 mt-12">
+                <div className="flex gap-36">
+                    <div className="ml-32 mt-12">
                         <ul>
                             <li className="font-bold text-neutral-500 text-2xl">SERVIÇOS</li>
                             <Link to={ROUTER_CONFIG.ACCESS} className="font-medium text-neutral-500 text-lg hover:underline"><li>Acessar Consulta</li></Link>
