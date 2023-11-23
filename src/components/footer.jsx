@@ -5,7 +5,7 @@ import { ROUTER_CONFIG } from "../config/constants"
 export function Footer() {
     return (
         <footer className="bg-zinc-100 py-16">
-            <div className="flex gap-14 px-96">
+            <div className="flex gap-14 px-72">
                 <div className="">
                     <div className="flex justify-between gap-3 items-center">
                         <Stethoscope size={36} className="text-primary" />
@@ -18,7 +18,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="flex gap-28">
-                    <div className="ml-64 mt-12">
+                    <div className="ml-14 mt-12">
                         <ul>
                             <li className="font-bold text-neutral-500 text-2xl">SERVIÇOS</li>
                             <Link to={ROUTER_CONFIG.ACCESS} className="font-medium text-neutral-500 text-lg hover:underline"><li>Acessar Consulta</li></Link>
